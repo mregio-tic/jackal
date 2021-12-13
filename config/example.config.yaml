@@ -26,9 +26,9 @@ peppers:
 storage:
   type: pgsql
   pgsql:
-    host: 127.0.0.1:5432
-    user: jackal
-    password: password
+    host: localhost:5432
+    user: sa
+    password: adminadmin
     database: jackal
     max_open_conns: 16
 
